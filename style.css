@@ -1,0 +1,109 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Main Game Container */
+.game-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+header p {
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Button Styling */
+.choices {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.choice-btn {
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice-btn img {
+    width: 60px;
+    height: 60px;
+}
+
+.choice-btn:hover {
+    transform: scale(1.1);
+    border-color: #aaa;
+}
+
+/* Result and Score Section */
+.result {
+    margin: 20px 0;
+}
+
+.score {
+    margin: 20px 0;
+    font-size: 1.1rem;
+}
+
+/* Game Over */
+.game-over {
+    display: none;
+    margin-top: 30px;
+}
+
+#game-over-message {
+    color: red;
+    font-size: 1.2rem;
+}
+
+.reset-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.reset-btn:hover {
+    background-color: #218838;
+}
+
+#game-result {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Winning Streak */
+#win-streak {
+    font-weight: bold;
+    color: #007bff;
+}
